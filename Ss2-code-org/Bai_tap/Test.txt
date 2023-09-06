@@ -1,4 +1,0 @@
-BEGIN
-     INPUT Math
-     INPUT Physics
-     INPUT Chemistry
