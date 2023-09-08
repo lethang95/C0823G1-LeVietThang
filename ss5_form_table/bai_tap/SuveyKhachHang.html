@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Market Research Survey</title>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    table{
+      width: 100%;
+    }
+    th {
+      background-color: #eeeeee;
+    }
+
+  </style>
+</head>
+<body>
+<form method="post" action="http://demo.codegym.vn/6/registration_form/register.php"/>
+  <h2>Market Research Survey</h2>
+  <p> Please take a few moments to complete this satisfaction survey.</p>
+  <p>
+    <b>What is your age range?</b>
+  </p>
+  <select name="age">
+    <option>18-24</option>
+    <option>24-34</option>
+    <option>34-44</option>
+    <option>50+</option>
+  </select>
+  <p>
+    <b>What is your yearly income range?</b>
+  </p>
+  <select name="range">
+    <option>$0-$25.000</option>
+    <option>$25.001-$50.000</option>
+    <option>$50.001-$100.000</option>
+    <option>$100.000</option>
+  </select>
+  <p>
+    <b>Gender Identity</b>
+  </p>
+  <input type = "Radio" name="gender"/> Male
+    </br>
+  <input type = "Radio" name="gender"/> Female
+    </br>
+  <input type = "Radio" name="gender"/> Nonbinary
+    </br>
+  <input type = "Radio" name="gender"/> Other
+    </br>
+  <textarea></textarea>
+  <p>
+    <b>Which of the following products have your purchased in the last 2 months. Please check all that apply.</b>
+  </p>
+  <label><input name="hobby" value="travel" type="checkbox"/> Product 1</label> <br/>
+  <label><input name="hobby" value="travel" type="checkbox"/> Product 2</label> <br/>
+  <label><input name="hobby" value="travel" type="checkbox"/> Product 3</label> <br/>
+  <p>
+    <b>How often would you use our new product?</b>
+  </p>
+  <input type = "Radio" name="gender"/> Daily</br>
+  <input type = "Radio" name="gender"/> Weekly</br>
+  <input type = "Radio" name="gender"/> Monthly
+  <p>
+    <b>What would you pay for the new product?</b>
+  </p>
+  <tr>
+    <td>
+      $<input type="number"style="width: 70px !important;">.<input type="number" style="width: 20px !important;">
+    </td>
+  <tr>
+    <td>
+      <pre>  <small>Dollar</small>      <small>Cent</small></pre>
+    </td>
+  </tr>
+    <b>What features would you like to see in the new product?</b>
+  </p>
+  <textarea></textarea>
+  <p> please rate your level of agreement with the following staternments.</p>
+  <table cellpadding="10" cellspacing="0">
+    <tr>
+      <th></th>
+      <th>Strongly Disagree</th>
+      <th>Disagree</th>
+      <th>Agree</th>
+      <th>Strongly Agree</th>
+    </tr>
+    <tr style="text-align: center">
+      <td><b>Our producrts are priced fairly</b></td>
+      <td><input type = "Radio"/></br>1</td>
+      <td><input type = "Radio"/></br>2</td>
+      <td><input type = "Radio"/></br>3</td>
+      <td><input type = "Radio"/></br>4</td>
+    </tr>
+    <tr style="text-align: center">
+      <td><b>Our products are high quality.</b></td>
+      <td><input type = "Radio"/></br>1</td>
+      <td><input type = "Radio"/></br>2</td>
+      <td><input type = "Radio"/></br>3</td>
+      <td><input type = "Radio"/></br>4</td>
+    </tr>
+    <tr style="text-align: center">
+      <td><b>You would recommend our product to a friend or coworker.</b></td>
+      <td><input type = "Radio"/></br>1</td>
+      <td><input type = "Radio"/></br>2</td>
+      <td><input type = "Radio"/></br>3</td>
+      <td><input type = "Radio"/></br>4</td>
+  </table>
+</body>
+</html>
