@@ -4,12 +4,8 @@
     <meta charset="UTF-8">
     <title>Market Research Survey</title>
   <style>
-    table, th, td {
-      border: 1px solid black;
-      border-collapse: collapse;
-    }
-    table{
-      width: 100%;
+    .border{
+      border: 1px solid black !important;
     }
     th {
       background-color: #eeeeee;
@@ -66,47 +62,46 @@
   <p>
     <b>What would you pay for the new product?</b>
   </p>
-  <tr>
-    <td>
-      $<input type="number"style="width: 70px !important;">.<input type="number" style="width: 20px !important;">
-    </td>
-  <tr>
-    <td>
-      <pre>  <small>Dollar</small>      <small>Cent</small></pre>
-    </td>
-  </tr>
+    <table>
+      <tr>
+        <td>$</td>
+        <td><input type="text"></br>Dollars</td>
+        <td>.</td>
+        <td><input type="text"></br>Cents</td>
+      </tr>
+    </table>
     <b>What features would you like to see in the new product?</b>
   </p>
   <textarea></textarea>
   <p> please rate your level of agreement with the following staternments.</p>
-  <table cellpadding="10" cellspacing="0">
+  <table cellpadding="10" cellspacing="0" width="100%" class="border">
     <tr>
-      <th></th>
-      <th>Strongly Disagree</th>
-      <th>Disagree</th>
-      <th>Agree</th>
-      <th>Strongly Agree</th>
+      <th class="border"></th>
+      <th class="border">Strongly Disagree</th>
+      <th class="border">Disagree</th>
+      <th class="border">Agree</th>
+      <th class="border">Strongly Agree</th>
     </tr>
     <tr style="text-align: center">
-      <td><b>Our producrts are priced fairly</b></td>
-      <td><input type = "Radio"/></br>1</td>
-      <td><input type = "Radio"/></br>2</td>
-      <td><input type = "Radio"/></br>3</td>
-      <td><input type = "Radio"/></br>4</td>
+      <td class="border"><b>Our producrts are priced fairly</b></td>
+      <td class="border"><input type = "Radio"/></br>1</td>
+      <td class="border"><input type = "Radio"/></br>2</td>
+      <td class="border"><input type = "Radio"/></br>3</td>
+      <td class="border"><input type = "Radio"/></br>4</td>
     </tr>
     <tr style="text-align: center">
-      <td><b>Our products are high quality.</b></td>
-      <td><input type = "Radio"/></br>1</td>
-      <td><input type = "Radio"/></br>2</td>
-      <td><input type = "Radio"/></br>3</td>
-      <td><input type = "Radio"/></br>4</td>
+      <td class="border"><b>Our products are high quality.</b></td>
+      <td class="border"><input type = "Radio"/></br>1</td>
+      <td class="border"><input type = "Radio"/></br>2</td>
+      <td class="border"><input type = "Radio"/></br>3</td>
+      <td class="border"><input type = "Radio"/></br>4</td>
     </tr>
     <tr style="text-align: center">
-      <td><b>You would recommend our product to a friend or coworker.</b></td>
-      <td><input type = "Radio"/></br>1</td>
-      <td><input type = "Radio"/></br>2</td>
-      <td><input type = "Radio"/></br>3</td>
-      <td><input type = "Radio"/></br>4</td>
+      <td class="border"><b>You would recommend our product to a friend or coworker.</b></td>
+      <td class="border"><input type = "Radio"/></br>1</td>
+      <td class="border"><input type = "Radio"/></br>2</td>
+      <td class="border"><input type = "Radio"/></br>3</td>
+      <td class="border"><input type = "Radio"/></br>4</td>
   </table>
 </body>
 </html>
